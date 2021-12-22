@@ -1,20 +1,19 @@
+// import addData from '../../API/api';
 
-const DISPLAY_ART = 'bookStore/books/DISPLAY_ART';
+export const GET_RECORDS = "artStore/api/GET_RECORDS";
 
-const initialState = [];
+const initialState = [{
+  detail: 'flex',
+  id: 'kjvgjk',
+}];
 
-export const addART = (payload) => ({
-  type: DISPLAY_ART,
-  payload,
-});
-
-const reducer = (state = initialState, action) => {
+const artReducer = (state = initialState, action) => {
   switch (action.type) {
-    case DISPLAY_ART:
-      return action.payload;
+    case GET_RECORDS:
+      return action.arr;
     default:
       return state;
   }
 };
 
-export default reducer;
+export default artReducer;
