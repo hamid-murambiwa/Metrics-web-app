@@ -1,7 +1,7 @@
 import  React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
 import users from '../API/api';
+import DetailsHeader from '../component/detailsHeader';
 
 function Details() {
   const detailsList = useSelector((state) => state.artReducer);
@@ -45,14 +45,12 @@ detailsList.map((cases) => {
 return (
     <div key={1}>
       <div>
-        <Link to='/'>
-        <img src="https://img.icons8.com/ios-filled/100/000000/circled-left-2.png"/>
-        </Link>
+        <DetailsHeader />
       </div>
       <h1>
       {name}
       </h1>
-      <img src={image} />
+      <img src={image} alt='' />
       <label>
         {breed_group}
       </label>
