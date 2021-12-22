@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Space Hub 
+# React-Capstone 
 
-> A SpaceX missions and rockets web application made with React, Redux and APIs. This project was created by Hamid Murambiwa and Karel van Oordt for Microverse's module 3.
+> This React capstone project is about building a mobile web application to check a list of metrics (numeric values) and built using React and Redux. Data is fetched from the TheDogApi and displayed on two pages and the data is filtered in each page. The web app has a home page and details page.
 
 ## Built With
 
@@ -10,7 +10,7 @@
 - Redux
 - JavaScript
 - CSS3
-- API
+- TheDogApi
 
 ## Live Demo
 
