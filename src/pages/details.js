@@ -13,13 +13,13 @@ function Details() {
 }, [dispatch]);
 
 let image;
-let id;
 let name;
-let life_span;
 let bred_for;
 let breed_group;
-let height;
-let weight;
+let height_metric;
+let height_imperial;
+let weight_metric;
+let weight_imperial;
 let origin;
 let temperament;
 
@@ -27,13 +27,13 @@ detailsList.map((cases) => {
   if (cases.id == window.location.pathname.slice(1)) {
     // console.log(cases);
     image = cases.image;
-    id = cases.id;
     name = cases.title;
-    life_span = cases.life_span;
     bred_for = cases.bred_for;
     breed_group = cases.group;
-    height = cases.height;
-    weight = cases.weight;
+    height_metric = cases.height_metric;
+    height_imperial = cases.height_imperial;
+    weight_metric = cases.weight_metric;
+    weight_imperial = cases.weight_imperial;
     origin = cases.origin;
     temperament = cases.temperament;
   }
@@ -51,27 +51,59 @@ return (
       {name}
       </h1>
       <img src={image} alt='' />
-      <label>
+      <ul>
+        <li>
+          <h2>
+            Breed group:
+          </h2>
+        <p>
         {breed_group}
-      </label>
+      </p>
+        </li>
+
+        <li>
+          <h2>
+            Breed for:
+          </h2>
       <p>
       {bred_for}
       </p>
+        </li>
+
+        <li>
+          <h2>Country origin:</h2>
       <p>
        {origin}
       </p>
+        </li>
+
+        <li>
+          <h2>Characteristics:</h2>
       <p>
         {temperament}
       </p>
+      </li>
+
+      <li>
+        <h2>Height:</h2>
       <p>
-        {life_span}
+        {height_imperial}
       </p>
       <p>
-        {height}
+      {height_metric}
+      </p>
+      </li>
+
+      <li>
+        <h2>Weight:</h2>
+        <p>
+        {weight_imperial}
       </p>
       <p>
-        {weight}
+      {weight_metric}
       </p>
+      </li>
+      </ul>
     </div>
   );
 }
