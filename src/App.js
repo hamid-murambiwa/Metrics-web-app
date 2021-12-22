@@ -14,7 +14,7 @@ function App() {
       <section>
         <Routes>
           <Route exact path="/" element={<Art />} />
-          <Route path="/details" element={<Details />} />
+          <Route path="/*" element={<Details />} />
           <Route path="/art" element={<Art />} />
         </Routes>
       </section>

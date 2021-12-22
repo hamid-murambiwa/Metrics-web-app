@@ -16,8 +16,10 @@ const users = () => async (dispatch) => {
       origin: item.origin,
       life_span: item.life_span,
       bred_for: item.bred_for,
-      height: `imperial: ${item.height.imperial} and metric: ${item.height.metric}`,
-      weight: `imperial: ${item.weight.imperial} and metric: ${item.weight.metric}`,
+      height_imperial: `imperial: ${item.height.imperial}`,
+      height_metric: `metric: ${item.height.metric}`,
+      weight_imperial: `imperial: ${item.weight.imperial}`,
+      weight_metric: `metric: ${item.weight.metric}`,
       temperament: item.temperament,
     }));
     dispatch({
