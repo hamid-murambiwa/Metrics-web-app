@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import users from '../API/api';
 import Header from '../component/header';
+import img from '../icons8-forward-button-100.png'
 
 function Art() {
   const artlist = useSelector((state) => state.artReducer);
@@ -20,7 +21,8 @@ function Art() {
             {artlist.map((art) => (
               <Link to={`/${art.id}`}>
               <div key={art.id}>
-              <img src={art.image} alt={art.alttext}/>
+              <img src={img} alt='' />
+              <img src={art.image} alt={art.alttext} alt='' />
               <h1>
                 {art.title}
               </h1>
