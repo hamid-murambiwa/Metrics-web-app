@@ -56,7 +56,7 @@ Skip if you have Node installed. Otherwise, download [nodejs](https://nodejs.org
 Install the node modules: ```npm install```
 Run the app: ```npm test``` or ```yarn test```
 
-## Authors
+## Author
 
 👤 **Hamid Murambiwa**
 
