@@ -1,6 +1,4 @@
-// import addData from '../../API/api';
-
-export const GET_RECORDS = "artStore/api/GET_RECORDS";
+export const GET_RECORDS = 'artStore/api/GET_RECORDS';
 
 const initialState = [{
   detail: 'flex',

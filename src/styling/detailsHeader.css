@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.h-img {
+  width: 20px;
+}
+
+.h-name {
+  font-size: 10px;
+}
+
+.s {
+  margin-right: 15px;
+}
+
+.s-con {
+  margin-right: 25px;
+}

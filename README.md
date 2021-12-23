@@ -1,44 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# React-Capstone 
 
-In the project directory, you can run:
+> This React capstone project is about building a mobile web application to check a list of metrics (numeric values) and built using React and Redux. Data is fetched from the TheDogApi and displayed on two pages and the data is filtered in each page. The web app has a home page and details page.
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React.js
+- Redux
+- JavaScript
+- CSS3
+- TheDogApi
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Live Demo
 
-### `npm test`
+[Live Demo Link](https://spacehub-karel-hamid.herokuapp.com/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**To clone this project**
+**Run command: ```$git clone ``` [repo](https://github.com/hamid-murambiwa/React-Capstone.git)**
+**or press the green Code button in the upper right corner and choose to download from the Download ZIP link.**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Code editor (VS Code, Sublime, Atom)
 
-### `npm run eject`
+### Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- to create a React application is using Create React App (CRA) and following the instructions in this [guide](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+```
+npx create-react-app bookstore-react
+cd bookstore-react
+npm start
+```
+-  Add React Redux
+ ```
+npm install react-redux
+```
+- Add React Router [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Authors
 
-## Learn More
+👤 **Hamid Murambiwa**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GitHub: [@hamid-murambiwa](https://github.com/hamid-murambiwa)
+- Twitter: [@twitterhandle](https://twitter.com/Hamid87789454)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hamid-murambiwa/)
+- AngelList: [AngelList Profile](https://angel.co/u/hamid-murambiwa)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/hamid-murambiwa/React-Capstone/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

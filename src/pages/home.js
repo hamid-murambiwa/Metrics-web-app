@@ -1,49 +1,59 @@
-import React from 'react';
-import {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import users from '../API/api';
 import Header from '../component/header';
-import img from '../icons8-forward-button-100.png'
+import img from '../styling/icons8-forward-button-100.png';
+import '../styling/home.css';
 
 function Art() {
   const artlist = useSelector((state) => state.artReducer);
   const dispatch = useDispatch();
-  const [allData,setAllData] = useState([]);
-    
+  const [allData, setAllData] = useState([]);
+
   useEffect(() => {
-      dispatch(users());
+    dispatch(users());
   }, [dispatch]);
 
   return (
-    <div className="book-con">
-          <Header />
-          <input type="text" placeholder="Search for a breed" onChange={(event) => setAllData(event.target.value)} />
-            {artlist.filter((val) => {
-              if (allData == '') {
-                return val
-              }else if (val.title.toLowerCase().includes(allData.toLowerCase())) {
-                return val
-              }
-            }).map((art) => (
-              <Link to={`/${art.id}`}>
-              <div key={art.id}>
-              <img src={img} alt='' />
-              <img src={art.image} alt={art.alttext} alt='' />
-              <h1>
-                {art.title}
-              </h1>
-              <article>
-              <label>
-                Life Span: 
-              </label>
-              <p>
-                {art.life_span}
-              </p>
-              </article>
+    <div className="art-con">
+      <Header />
+      <div className="search-con">
+        <input id="search" type="text" placeholder="Search for a breed" onChange={(event) => setAllData(event.target.value)} />
+      </div>
+      <div id="card-con">
+        {// eslint-disable-next-line
+        artlist.filter((value) => {
+          // eslint-disable-next-line
+          if (allData == '') {
+            return value;
+          } if (value.title.toLowerCase().includes(allData.toLowerCase())) {
+            return value;
+          }
+        }).map((art) => (
+          <Link key={art.id} className="card" to={`/${art.id}`}>
+            <div key={art.id}>
+              <div className="card_imgs">
+                <div className="ci">
+                  <img className="d-img" src={art.image} alt={art.alttext} />
+                  <img className="f-btn" src={img} alt="" />
+                </div>
               </div>
-              </Link>
-            ))}
+              <article className="title">
+                <h1>
+                  {art.title}
+                </h1>
+                <i>
+                  Life Span:
+                  {' '}
+                  {art.life_span}
+                </i>
+              </article>
+            </div>
+          </Link>
+        ))
+}
+      </div>
     </div>
   );
 }
