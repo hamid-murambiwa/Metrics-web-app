@@ -40,8 +40,6 @@ function Details() {
     }
   });
 
-  console.log(origin);
-
   return (
     <div>
       <div>

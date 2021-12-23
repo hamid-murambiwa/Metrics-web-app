@@ -51,7 +51,8 @@ function Art() {
               </article>
             </div>
           </Link>
-        ))}
+        ))
+}
       </div>
     </div>
   );
