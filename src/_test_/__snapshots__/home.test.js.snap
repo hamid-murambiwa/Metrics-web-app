@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render components render HomePage 1`] = `
+<div
+  className="art-con"
+>
+  <header>
+    <img
+      alt=""
+      className="headerImg"
+      src="97691843-group-of-dog-breeds-holding-bone-front-view-pet-background-banner.webp"
+    />
+    <div>
+      <h1
+        className="h-text"
+      >
+        Dog breeds
+      </h1>
+      <p>
+        172 breeds
+      </p>
+    </div>
+  </header>
+  <div
+    className="search-con"
+  >
+    <input
+      id="search"
+      onChange={[Function]}
+      placeholder="Search for a breed"
+      type="text"
+    />
+  </div>
+  <div
+    id="card-con"
+  >
+    <a
+      className="card"
+      href="/kjvgjk"
+      onClick={[Function]}
+    >
+      <div>
+        <div
+          className="card_imgs"
+        >
+          <div
+            className="ci"
+          >
+            <img
+              className="d-img"
+            />
+            <img
+              alt=""
+              className="f-btn"
+              src="icons8-forward-button-100.png"
+            />
+          </div>
+        </div>
+        <article
+          className="title"
+        >
+          <h1 />
+          <i>
+            Life Span:
+             
+          </i>
+        </article>
+      </div>
+    </a>
+  </div>
+</div>
+`;

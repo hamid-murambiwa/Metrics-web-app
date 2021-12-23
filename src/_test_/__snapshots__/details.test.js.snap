@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render components render HomePage 1`] = `
+<div>
+  <div>
+    <header>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="h-img"
+          src="icons8-back-90.png"
+        />
+      </a>
+      <div
+        className="s-con"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            className="h-img s"
+            src="icons8-microphone-90.png"
+          />
+        </a>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            className="h-img"
+            src="icons8-settings.svg"
+          />
+        </a>
+      </div>
+    </header>
+  </div>
+  <section
+    id="d-con"
+  >
+    <div
+      id="i-con"
+    >
+      <img
+        alt=""
+        id="breed-img"
+      />
+      <h1 />
+    </div>
+    <ul
+      className="details"
+    >
+      <li>
+        <h2>
+          Breed group
+        </h2>
+        <p />
+      </li>
+      <li>
+        <h2>
+          Breed for
+        </h2>
+        <p />
+      </li>
+      <li>
+        <h2>
+          Country origin
+        </h2>
+        <p />
+      </li>
+      <li>
+        <h2>
+          Characteristics
+        </h2>
+        <p />
+      </li>
+      <li>
+        <h2>
+          Height
+        </h2>
+        <p />
+        <p />
+      </li>
+      <li>
+        <h2>
+          Weight
+        </h2>
+        <p />
+        <p />
+      </li>
+    </ul>
+  </section>
+</div>
+`;
