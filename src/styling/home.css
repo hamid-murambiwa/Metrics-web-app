@@ -51,8 +51,8 @@ body {
   text-decoration: none !important;
 }
 
-.card:nth-child(2),
-.card:nth-child(3n-3):not(:first-child) {
+.card:nth-child(4n+3),
+.card:nth-child(4n+2):not(:first-child) {
   background-color: rgb(50, 77, 129);
 }
 

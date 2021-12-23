@@ -1,7 +1,7 @@
 
-# Metrics webapp 
+# Metrics web app 
 
-> This React capstone project is about building a mobile web application to check a list of metrics (numeric values) and built using React and Redux. Data is fetched from the TheDogApi and displayed on two pages and the data is filtered in each page. The web app has a home page and details page.
+> This React capstone project is about building a mobile web application to check a list of metrics (numeric values) and built using React and Redux. Data is fetched from the TheDogApi and displayed on two pages. The web app has a home page and a details page.
 
 ## Home page:
 <img width="244" alt="Screenshot 2021-12-23 at 11 41 53" src="https://user-images.githubusercontent.com/71644515/147221304-37df1997-d2eb-4076-be5e-5dbdbb957654.png">
@@ -34,7 +34,7 @@
 
 ## Prerequisites
 
-- Code editor (VS Code, Sublime, Atom)
+- Code editor (VS Code)
 
 ### Setup
 
@@ -51,10 +51,10 @@ npm install react-redux
 - Add React Router [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 
 ## How to run the test
-- Clone the project: ```https://github.com/hamid-murambiwa/React-Capstone.git```
-- Skip if you already have node installed otherwise download [nodejs](https://nodejs.org/en/download/) install it on your system
-- Install the node modules: ```npm install```
-- Run the app: ```npm test``` or ```yarn test```
+Clone the project: ```https://github.com/hamid-murambiwa/React-Capstone.git```
+Skip if you have Node installed. Otherwise, download [nodejs](https://nodejs.org/en/download/) install it on your system
+Install the node modules: ```npm install```
+Run the app: ```npm test``` or ```yarn test```
 
 ## Authors
 
