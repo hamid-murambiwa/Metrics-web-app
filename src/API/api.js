@@ -4,7 +4,6 @@ const users = () => async (dispatch) => {
   const books = await axios.get('https://api.thedogapi.com/v1/breeds', {
     headers: {
       'x-api-key': 'c478d8f2-a659-4ef4-83b8-a0735ee45add',
-      'Pagination-Count': 20,
     },
   });
   const arr = [];
