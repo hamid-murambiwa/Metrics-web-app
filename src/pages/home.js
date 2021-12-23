@@ -22,7 +22,9 @@ function Art() {
         <input id="search" type="text" placeholder="Search for a breed" onChange={(event) => setAllData(event.target.value)} />
       </div>
       <div id="card-con">
-        {artlist.filter((value) => {
+        {// eslint-disable-next-line
+        artlist.filter((value) => {
+          // eslint-disable-next-line
           if (allData == '') {
             return value;
           } if (value.title.toLowerCase().includes(allData.toLowerCase())) {
@@ -33,7 +35,7 @@ function Art() {
             <div key={art.id}>
               <div className="card_imgs">
                 <div className="ci">
-                  <img className="d-img" src={art.image} alt={art.alttext} alt="" />
+                  <img className="d-img" src={art.image} alt={art.alttext} />
                   <img className="f-btn" src={img} alt="" />
                 </div>
               </div>

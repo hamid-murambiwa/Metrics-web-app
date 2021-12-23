@@ -23,7 +23,9 @@ function Details() {
   let origin;
   let temperament;
 
+  // eslint-disable-next-line
   detailsList.map((cases) => {
+    // eslint-disable-next-line
     if (cases.id == window.location.pathname.slice(1)) {
       image = cases.image;
       name = cases.title;
