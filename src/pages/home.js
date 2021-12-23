@@ -22,14 +22,14 @@ function Art() {
         <input id="search" type="text" placeholder="Search for a breed" onChange={(event) => setAllData(event.target.value)} />
       </div>
       <div id="card-con">
-        {artlist.filter((val) => {
+        {artlist.filter((value) => {
           if (allData == '') {
-            return val;
-          } if (val.title.toLowerCase().includes(allData.toLowerCase())) {
-            return val;
+            return value;
+          } if (value.title.toLowerCase().includes(allData.toLowerCase())) {
+            return value;
           }
         }).map((art) => (
-          <Link className="card" to={`/${art.id}`}>
+          <Link key={art.id} className="card" to={`/${art.id}`}>
             <div key={art.id}>
               <div className="card_imgs">
                 <div className="ci">

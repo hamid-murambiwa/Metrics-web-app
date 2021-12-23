@@ -1,4 +1,3 @@
-
 export const GET_RECORDS = 'artStore/api/GET_RECORDS';
 
 const initialState = [{
