@@ -1,7 +1,7 @@
 
 # Metrics web app 
 
-> This is a mobile web application to check a list of metrics (numeric values) and is built using React and Redux. Data is fetched from the TheDogApi, displayed and, filtered on two pages. The web app has a home page and a details page.
+> This is a mobile web application to check a list of metrics (numeric values) and is built using React and Redux. Data is fetched from the TheDogApi, displayed and filtered on two pages. The web app has a home page and a details page.
 
 ## Home page:
 <img width="244" alt="Screenshot 2021-12-23 at 11 41 53" src="https://user-images.githubusercontent.com/71644515/147221304-37df1997-d2eb-4076-be5e-5dbdbb957654.png">
@@ -28,9 +28,21 @@
 
 ## Getting Started
 
-**To clone this project**
-**Run command: ```$git clone ``` [repo](https://github.com/hamid-murambiwa/React-Capstone.git)**
-**or press the green Code button in the upper right corner and choose to download from the Download ZIP link.**
+> To get a local copy up and running please follow these steps:
+
+- Open the command prompt in this directory.
+
+- Clone of the Repo:
+
+      $ git clone https://github.com/hamid-murambiwa/Blog-App.git
+
+- Go to the repository folder in your command prompt:
+
+      $ cd Blog-App
+
+- Start the app:
+
+      $ npm start
 
 ## Prerequisites
 
@@ -51,10 +63,20 @@ npm install react-redux
 - Add React Router [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 
 ## How to run the test
-Clone the project: ```https://github.com/hamid-murambiwa/React-Capstone.git```
-Skip if you have Node installed. Otherwise, download [nodejs](https://nodejs.org/en/download/) install it on your system
-Install the node modules: ```npm install```
-Run the app: ```npm test``` or ```yarn test```
+- Skip if you have Node installed. Otherwise, download [nodejs](https://nodejs.org/en/download/) install it on your system
+- Install the node modules: 
+```
+npm install
+```
+
+- Run the tests: 
+```
+npm test
+```
+- or
+```
+yarn test
+```
 
 ## Author
 
@@ -67,17 +89,17 @@ Run the app: ```npm test``` or ```yarn test```
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/hamid-murambiwa/React-Capstone/issues).
-
-## Acknowledgement
-- [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+>Contributions, issues, and feature requests are welcome!
+>Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+>Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- This project built in Microverse's Fourth Module's Capstone.
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+>This project is [MIT](./MIT.md) licensed.
