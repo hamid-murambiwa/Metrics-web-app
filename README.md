@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://622d9a1334cc7f237fa38cbe--confident-babbage-e8362d.netlify.app/)
+[Live Demo Link](https://confident-babbage-e8362d.netlify.app/)
 
 ## Video
 
