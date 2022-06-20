@@ -1,7 +1,7 @@
 
 # Metrics web app 
 
-> This is a mobile web application to check a list of metrics (numeric values) and is built using React and Redux. Data is fetched from the TheDogApi, displayed and filtered on two pages. The web app has a home page and a details page.
+> This is a simple web application that checks a list of metrics (numeric values) and is built using React and Redux. Data is fetched from the TheDogApi and displayed on two pages, the data is filtered on each page. The web app has a home page and a details page.
 
 ## Home page:
 <img width="244" alt="Screenshot 2021-12-23 at 11 41 53" src="https://user-images.githubusercontent.com/71644515/147221304-37df1997-d2eb-4076-be5e-5dbdbb957654.png">
