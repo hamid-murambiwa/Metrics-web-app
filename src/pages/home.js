@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import users from '../API/api';
 import Header from '../component/header';
+import Loading from '../component/loading';
 import img from '../styling/icons8-forward-button-100.png';
 import '../styling/home.css';
 
@@ -22,7 +23,10 @@ function Art() {
         <input id="search" type="text" placeholder="Search for a breed" onChange={(event) => setAllData(event.target.value)} />
       </div>
       <div id="card-con">
-        {// eslint-disable-next-line
+        {artlist.length <= 1 ? (
+          <Loading />
+        ) : (
+        // eslint-disable-next-line
         artlist.filter((value) => {
           // eslint-disable-next-line
           if (allData == '') {
@@ -52,7 +56,7 @@ function Art() {
             </div>
           </Link>
         ))
-}
+)}
       </div>
     </div>
   );
