@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://confident-babbage-e8362d.netlify.app/)
+[Live Demo Link](https://dogbreeds-app.netlify.app/)
 
 ## Video
 
